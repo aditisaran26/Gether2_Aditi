@@ -1,0 +1,20 @@
+.carouselitem {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 490px;
+    background-color: #fff;
+  }
+  
+  .carouselitem__desc {
+    font-size: 1.15rem;
+    margin: 40px 0 40px 0;
+    padding: 0 20px 0 20px;
+    white-space: normal;
+    color: #617d98;
+  }
+  .carouselitem__image{
+    width: 250px;
+    padding: 0 20px 0 20px;
+  }
+  

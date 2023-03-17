@@ -1,0 +1,49 @@
+.carousel {
+    overflow: hidden;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .carousel__container {
+    white-space: nowrap;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  .carousel__buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .button_arrow{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .carousel__button_dots{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .button_dots {
+    border: none;
+    cursor: pointer;
+  }
+  
+  .carousel__button_dots > button {
+    margin: 5px;
+    background: none;
+  }
+  .indicator-symbol {
+    color: #26343f;
+  }
+  
+  .indicator-symbol-active {
+    color: #ffffff;
+  }
+  
